@@ -1,6 +1,5 @@
 Const title = "Remove Char"
-Const inputMsg = "Paste the text here."
-inputText = InputBox(inputMsg, title)
+inputText = InputBox("Paste the text here.", title)
 If Not inputText = "" Then
 	Const resMsg = "Click OK to copy the adjusted text to the Clipboard"
 	outputText = ""
